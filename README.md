@@ -28,7 +28,7 @@ An intelligent financial analysis tool that leverages Google's Gemini Pro LLM to
 
 ### Installation
 
-(bash)
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/gemini-financial-decoder.git
 cd gemini-financial-decoder
@@ -41,6 +41,7 @@ export GOOGLE_API_KEY="your_api_key_here"
 
 # Run the application
 streamlit run appfinal.py
+```
 
 # Usage
 Upload financial statements using the sidebar.
