@@ -64,7 +64,7 @@ Cash Flow – Liquidity and cash management insights
 
 # Technical Architecture
 
-┌──────────────┐    ┌─────────────────┐    ┌──────────────────┐
+**┌──────────────┐    ┌─────────────────┐    ┌──────────────────┐
 │  Streamlit   │───▶│  File Uploader  │───▶│  Data Processor   │
 │  Interface   │    └─────────────────┘    │  (Pandas)         │
 └──────────────┘                          └──────────────────┘
@@ -73,7 +73,7 @@ Cash Flow – Liquidity and cash management insights
 ┌──────────────┐    ┌─────────────────┐    ┌──────────────────┐
 │  Visualizer  │    │  LLM Handler    │    │ Google Gemini Pro│
 │  (Plotly)    │    │  (LangChain)    │    │      API         │
-└──────────────┘    └─────────────────┘    └──────────────────┘
+└──────────────┘    └─────────────────┘    └──────────────────┘**
 
 # Security
 No Data Persistence – Files are never stored
